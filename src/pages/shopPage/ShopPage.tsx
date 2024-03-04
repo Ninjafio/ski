@@ -1,5 +1,13 @@
 import React from "react";
-import { SardiniaBlock, CatalogBlock, GalleryBlock, ExploreBlock, ChooseBlock, VideoBlock, MapBlock } from "../../blocks/index"
+import {
+  SardiniaBlock,
+  CatalogBlock,
+  GalleryBlock,
+  ExploreBlock,
+  ChooseBlock,
+  VideoBlock,
+  MapBlock,
+} from "../../blocks/index";
 
 const ShopPage = () => {
   return (

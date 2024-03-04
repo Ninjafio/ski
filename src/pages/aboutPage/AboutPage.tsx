@@ -1,5 +1,13 @@
 import React from "react";
-import { AboutBlock, CatalogBlock, GalleryBlock, ExploreBlock, ChooseBlock, VideoBlock, MapBlock } from "../../blocks/index"
+import {
+  AboutBlock,
+  CatalogBlock,
+  GalleryBlock,
+  ExploreBlock,
+  ChooseBlock,
+  VideoBlock,
+  MapBlock,
+} from "../../blocks/index";
 
 const AboutPage = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import "./MapBlock.css";
-import { Title, Text } from "../../components/index"
+import { Title, Text } from "../../components/index";
 import type { YMapLocationRequest } from "@yandex/ymaps3-types";
 
 const MapBlock = () => {
@@ -27,14 +27,18 @@ const MapBlock = () => {
       <div>
         <div className="map-info-wrapper">
           <div>
-          <Title classname="map-title">Location of our Hotels</Title>
-          <Text classname="map-descr">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's
-          </Text>
+            <Title classname="map-title">Location of our Hotels</Title>
+            <Text classname="map-descr">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's
+            </Text>
           </div>
-        <input type="email" className="input-map" placeholder="Enter your email"/>
-        <button className="map-btn">Contact</button>
+          <input
+            type="email"
+            className="input-map"
+            placeholder="Enter your email"
+          />
+          <button className="map-btn">Contact</button>
         </div>
       </div>
     </div>

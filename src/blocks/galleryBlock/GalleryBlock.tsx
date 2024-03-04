@@ -1,6 +1,10 @@
 import React from "react";
 import { Title } from "../../components/index";
-import { GalleryLeftImg, GalleryRightTopImg, GalleryRightBottomImg } from "../../img/index"
+import {
+  GalleryLeftImg,
+  GalleryRightTopImg,
+  GalleryRightBottomImg,
+} from "../../img/index";
 import "./GalleryBlock.css";
 
 const GalleryBlock = () => {

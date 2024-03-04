@@ -1,10 +1,8 @@
-import React from 'react'
-import IProps from '../../types'
+import React from "react";
+import IProps from "../../types";
 
 const Title = ({ children, classname }: IProps) => {
-  return (
-    <div className={ classname }>{ children }</div>
-  )
-}
+  return <div className={classname}>{children}</div>;
+};
 
-export default Title
+export default Title;

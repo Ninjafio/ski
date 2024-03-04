@@ -1,15 +1,19 @@
-import React, { useState } from "react"; 
+import React, { useState } from "react";
 import "./CatalogBlock.css";
-import { Title, CatalogCard } from "../../components/index"
-import { CatalogSection, SardiniaWhite, SicilyGrey3060, SicilyGrey, SicilyGreyDécor } from "../../img/index"
+import { Title, CatalogCard } from "../../components/index";
+import {
+  CatalogSection,
+  SardiniaWhite,
+  SicilyGrey3060,
+  SicilyGrey,
+  SicilyGreyDécor,
+} from "../../img/index";
 
 const CatalogBlock = () => {
-  const [showMore, setShowMore] = useState(false); 
+  const [showMore, setShowMore] = useState(false);
 
   return (
     <div className="catalogBlock">
-      
-
       <div className="catalog">
         <img
           src={CatalogSection}

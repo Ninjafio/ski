@@ -1,5 +1,5 @@
 import React from "react";
-import { SendImg } from "../../img/index"
+import { SendImg } from "../../img/index";
 import "./Footer.css";
 
 const Footer = () => {

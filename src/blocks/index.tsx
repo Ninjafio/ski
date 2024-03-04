@@ -10,4 +10,16 @@ import MapBlock from "./mapBlock/MapBlock";
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
 
-export { AboutBlock, IntroBlock, SardiniaBlock, CatalogBlock, GalleryBlock, ExploreBlock, ChooseBlock, VideoBlock, MapBlock, Header, Footer }
+export {
+  AboutBlock,
+  IntroBlock,
+  SardiniaBlock,
+  CatalogBlock,
+  GalleryBlock,
+  ExploreBlock,
+  ChooseBlock,
+  VideoBlock,
+  MapBlock,
+  Header,
+  Footer,
+};

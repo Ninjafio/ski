@@ -1,15 +1,17 @@
-import React from 'react'
-import "./IntroBlock.css"
-import { Title, Text, Button } from "../../components/index"
-import { BackGround, Box, Wallet, Support } from "../../img/index"
+import React from "react";
+import "./IntroBlock.css";
+import { Title, Text, Button } from "../../components/index";
+import { BackGround, Box, Wallet, Support } from "../../img/index";
 
 const IntroBlock = () => {
   return (
-    <div className='introBlock'>
-      <img src={ BackGround } alt="background" className='backgroundImg'/>
-      <div className='intro-wrapper'>
-        <Text classname='intro-text'>We build only the best, customized to your exacting demands</Text>
-        <Title classname='intro-title'>SKY & SKI</Title>
+    <div className="introBlock">
+      <img src={BackGround} alt="background" className="backgroundImg" />
+      <div className="intro-wrapper">
+        <Text classname="intro-text">
+          We build only the best, customized to your exacting demands
+        </Text>
+        <Title classname="intro-title">SKY & SKI</Title>
         <Button>SHOP NOW</Button>
       </div>
       <ul className="service-list">
@@ -36,7 +38,7 @@ const IntroBlock = () => {
         </li>
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default IntroBlock
+export default IntroBlock;
